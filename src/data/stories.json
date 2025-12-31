@@ -11,7 +11,7 @@
         "id": 1,
         "videoUrl": "/video/Scene1.mp4",
         "transcript": "She should've met us already… Yeah… deserts are really bad at directions.",
-        "thaiTranslation": "เธอควรจะมาพบเราแล้ว… ใช่… ทะเลทรายไม่เก่งเรื่องทิศทางจริงๆ",
+        "thaiTranslation": "เธอควรจะมาพบเราแล้ว… ใช่… เดินทางในทะเลทราย นี่มันช่างสับสน ซับซ้อน จริงๆ",
         "duration": 3.5,
         "listeningOptions": [
           { "text": "She should've met us already… Yeah… deserts are really bad at directions.", "isCorrect": true },
@@ -46,7 +46,7 @@
         "id": 3,
         "videoUrl": "/video/Scene3.mp4",
         "transcript": "I don't like this part of the adventure…",
-        "thaiTranslation": "ฉันไม่ชอบส่วนนี้ของการผจญภัย...",
+        "thaiTranslation": "ฉันไม่ชอบของการผจญภัยแบบนี้เลย...",
         "duration": 3.2,
         "listeningOptions": [
           { "text": "I don't like this part of the adventure…", "isCorrect": true },
@@ -63,7 +63,7 @@
         "id": 4,
         "videoUrl": "/video/Scene4.mp4",
         "transcript": "AH! Desert pothole! Sorry! Hang on!",
-        "thaiTranslation": "อ๊ะ! หลุมในทะเลทราย! ขอโทษ! เกาะไว้!",
+        "thaiTranslation": "อ๊ะ! หลุมตรงหน้า ในทะเลทราย! ขอโทษ! เกาะไว้!",
         "duration": 2.0,
         "listeningOptions": [
           { "text": "AH! Desert pothole! Sorry! Hang on!", "isCorrect": true },
@@ -97,7 +97,7 @@
         "id": 6,
         "videoUrl": "/video/Scene6.mp4",
         "transcript": "We always find our friends. That's our thing.",
-        "thaiTranslation": "เรามักจะหาเพื่อนของเราเจอเสมอ นั่นคือสิ่งที่เราทำ",
+        "thaiTranslation": "เราจะต้องหาเพื่อนของเราเจอเสมอ นั่นคือสิ่งที่เราทำ",
         "duration": 2.0,
         "listeningOptions": [
           { "text": "We always find our friends. That's our thing.", "isCorrect": true },
