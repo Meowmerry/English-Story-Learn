@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large video files (>50MB)
+*.mov
+**/*.mov
+images/3DAnimatedTrueFriend.mov
+public/images/3DAnimatedTrueFriend.mov
+
+# Video files - store large videos elsewhere (e.g., cloud storage)
+# Keep only small mp4 files for development
