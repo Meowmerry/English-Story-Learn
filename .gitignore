@@ -29,3 +29,6 @@ public/images/3DAnimatedTrueFriend.mov
 
 # Video files - store large videos elsewhere (e.g., cloud storage)
 # Keep only small mp4 files for development
+
+# Firebase cache
+.firebase/
