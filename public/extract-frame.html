@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Frame Extractor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        canvas {
+            display: none;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        input[type="number"] {
+            padding: 8px;
+            font-size: 14px;
+            width: 100px;
+        }
+        .instructions {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Frame Extractor</h1>
+
+    <div class="instructions">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Select a video file from your computer</li>
+            <li>Play the video and pause at the frame you want to capture</li>
+            <li>Or enter a specific time in seconds</li>
+            <li>Click "Capture Frame" to download the image as PNG</li>
+        </ol>
+    </div>
+
+    <input type="file" id="videoInput" accept="video/*">
+
+    <video id="video" controls></video>
+
+    <div class="controls">
+        <label>
+            Jump to time (seconds):
+            <input type="number" id="timeInput" min="0" step="0.1" value="1">
+        </label>
+        <button onclick="jumpToTime()">Jump</button>
+        <button onclick="captureFrame()">Capture Frame</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const videoInput = document.getElementById('videoInput');
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        videoInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const url = URL.createObjectURL(file);
+                video.src = url;
+                video.load();
+            }
+        });
+
+        function jumpToTime() {
+            const time = parseFloat(document.getElementById('timeInput').value);
+            video.currentTime = time;
+        }
+
+        function captureFrame() {
+            if (!video.src) {
+                alert('Please select a video first!');
+                return;
+            }
+
+            // Set canvas dimensions to match video
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+
+            // Draw current video frame to canvas
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            // Convert to blob and download
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'video-frame.png';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                alert('Frame captured and downloaded as video-frame.png');
+            }, 'image/png');
+        }
+    </script>
+</body>
+</html>

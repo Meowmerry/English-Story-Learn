@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import XPDisplay from './XPDisplay';
 import UserProfile from './auth/UserProfile';
 import LoginModal from './auth/LoginModal';
 import RegisterModal from './auth/RegisterModal';
 import { useAuth } from '../contexts/AuthContext';
 
-const Sidebar = ({ stories, selectedStory, onStorySelect, onPageChange, currentPage, isOpen, onClose }) => {
+const Sidebar = ({ stories, onStorySelect, isOpen, onClose }) => {
   const { user, logout } = useAuth();
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showRegisterModal, setShowRegisterModal] = useState(false);
+  const location = useLocation();
+
   const getDifficultyColor = (difficulty) => {
     switch (difficulty) {
       case 'beginner':
@@ -23,12 +26,19 @@ const Sidebar = ({ stories, selectedStory, onStorySelect, onPageChange, currentP
   };
 
   const navigationItems = [
-    { id: 'home', label: 'Home', icon: '🏠' },
-    { id: 'stories', label: 'All Stories', icon: '📚' },
-    { id: 'stats', label: 'My Progress', icon: '📊' },
-    { id: 'resources', label: 'Resources', icon: '🛠️' },
-    { id: 'about', label: 'About Me', icon: '👤' }
+    { id: 'home', label: 'Home', icon: '🏠', path: '/' },
+    { id: 'stories', label: 'All Stories', icon: '📚', path: '/stories' },
+    { id: 'stats', label: 'My Progress', icon: '📊', path: '/progress' },
+    { id: 'resources', label: 'Resources', icon: '🛠️', path: '/resources' },
+    { id: 'about', label: 'About Me', icon: '👤', path: '/about' }
   ];
+
+  const isActivePath = (path) => {
+    if (path === '/') {
+      return location.pathname === '/';
+    }
+    return location.pathname.startsWith(path);
+  };
 
   return (
     <>
@@ -105,12 +115,13 @@ const Sidebar = ({ stories, selectedStory, onStorySelect, onPageChange, currentP
         <div className="p-4 border-b border-gray-200">
           <nav className="space-y-2">
             {navigationItems.map((item) => (
-              <button
+              <Link
                 key={item.id}
-                onClick={() => onPageChange(item.id)}
+                to={item.path}
+                onClick={onClose}
                 className={`
                   w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors
-                  ${currentPage === item.id
+                  ${isActivePath(item.path)
                     ? 'bg-primary-100 text-primary-700 font-semibold'
                     : 'text-gray-700 hover:bg-gray-100'
                   }
@@ -118,7 +129,7 @@ const Sidebar = ({ stories, selectedStory, onStorySelect, onPageChange, currentP
               >
                 <span className="text-xl">{item.icon}</span>
                 <span>{item.label}</span>
-              </button>
+              </Link>
             ))}
           </nav>
         </div>
@@ -132,19 +143,28 @@ const Sidebar = ({ stories, selectedStory, onStorySelect, onPageChange, currentP
               onClick={() => onStorySelect(story)}
               className={`
                 card cursor-pointer transition-all duration-200
-                ${selectedStory?.id === story.id
+                ${location.pathname === `/story/${story.id}`
                   ? 'ring-2 ring-primary-500 bg-primary-50'
                   : 'hover:bg-gray-50'
                 }
               `}
             >
               {/* Story Thumbnail */}
-              <div className="aspect-video bg-gradient-to-br from-primary-200 to-secondary-200 rounded-lg mb-3 overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center text-4xl">
-                  🎬
-                </div>
+              <div className="aspect-video bg-gradient-to-br from-primary-200 to-secondary-200 rounded-lg mb-4 overflow-hidden relative">
+                {story.thumbnail ?
+                  (
+                    <img
+                      src={story.thumbnail}
+                      alt={story.title}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-6xl">
+                      🎬
+                    </div>
+                  )
+                }
               </div>
-
               {/* Story Info */}
               <h3 className="font-bold text-lg text-gray-800 mb-2">
                 {story.title}

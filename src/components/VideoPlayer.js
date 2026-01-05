@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-const VideoPlayer = ({ videoUrl, mode }) => {
+const VideoPlayer = ({ videoUrl }) => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);

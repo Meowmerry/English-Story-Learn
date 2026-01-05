@@ -65,10 +65,10 @@ const ListeningMode = ({ scene, onComplete }) => {
       </div>
 
       {/* Translation Reference */}
-      <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg mb-6">
+      {/* <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg mb-6">
         <p className="text-sm text-gray-600 mb-1">Thai Translation:</p>
         <p className="text-lg font-medium text-gray-800">{scene.thaiTranslation}</p>
-      </div>
+      </div> */}
 
       {/* Skip Button */}
       {!showFeedback && (
@@ -100,8 +100,8 @@ const ListeningMode = ({ scene, onComplete }) => {
                 ${showResult && option.isCorrect
                   ? 'bg-green-100 border-2 border-green-500 text-green-800'
                   : showResult && !option.isCorrect
-                  ? 'bg-red-100 border-2 border-red-500 text-red-800'
-                  : 'bg-white border-2 border-gray-200 hover:border-primary-400'
+                    ? 'bg-red-100 border-2 border-red-500 text-red-800'
+                    : 'bg-white border-2 border-gray-200 hover:border-primary-400'
                 }
                 ${showFeedback && !isSelected ? 'opacity-50' : ''}
               `}

@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const Stories = ({ stories, onStorySelect }) => {
+const Stories = ({ stories }) => {
+  const navigate = useNavigate();
   const getDifficultyColor = (difficulty) => {
     switch (difficulty) {
       case 'beginner':
@@ -30,13 +32,23 @@ const Stories = ({ stories, onStorySelect }) => {
           <div
             key={story.id}
             className="card cursor-pointer transition-all duration-200 hover:shadow-xl hover:scale-105"
-            onClick={() => onStorySelect(story)}
+            onClick={() => navigate(`/story/${story.id}`)}
           >
             {/* Story Thumbnail */}
-            <div className="aspect-video bg-gradient-to-br from-primary-200 to-secondary-200 rounded-lg mb-4 overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center text-6xl">
-                🎬
-              </div>
+            <div className="aspect-video bg-gradient-to-br from-primary-200 to-secondary-200 rounded-lg mb-4 overflow-hidden relative">
+              {story.thumbnail ?
+                (
+                  <img
+                    src={story.thumbnail}
+                    alt={story.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-6xl">
+                    🎬
+                  </div>
+                )
+              }
             </div>
 
             {/* Story Info */}

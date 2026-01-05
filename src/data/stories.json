@@ -3,13 +3,13 @@
     "id": "fuzzy-desert-adventure",
     "title": "Desert Adventure: The Search",
     "description": "Join Fuzzy and friends on an exciting desert adventure to find their missing friend. Learn important grammar patterns while following this heartwarming rescue story.",
-    "thumbnail": "/images/theGirl.png",
+    "thumbnail": "/images/desert/SCENE12.png",
     "difficulty": "beginner",
     "totalScenes": 12,
     "scenes": [
       {
         "id": 1,
-        "videoUrl": "/video/Scene1.mp4",
+        "videoUrl": "/video/desert/Scene1.mp4",
         "transcript": "She should've met us already… Yeah… deserts are really bad at directions.",
         "thaiTranslation": "เธอควรจะมาพบเราแล้ว… ใช่… เดินทางในทะเลทราย นี่มันช่างสับสน ซับซ้อน จริงๆ",
         "duration": 3.5,
@@ -28,7 +28,7 @@
       },
       {
         "id": 2,
-        "videoUrl": "/video/Scene2.mp4",
+        "videoUrl": "/video/desert/Scene2.mp4",
         "transcript": "I won't stop.",
         "thaiTranslation": "ฉันจะไม่หยุด",
         "duration": 2.8,
@@ -44,7 +44,7 @@
       },
       {
         "id": 3,
-        "videoUrl": "/video/Scene3.mp4",
+        "videoUrl": "/video/desert/Scene3.mp4",
         "transcript": "I don't like this part of the adventure…",
         "thaiTranslation": "ฉันไม่ชอบของการผจญภัยแบบนี้เลย...",
         "duration": 3.2,
@@ -61,7 +61,7 @@
       },
       {
         "id": 4,
-        "videoUrl": "/video/Scene4.mp4",
+        "videoUrl": "/video/desert/Scene4.mp4",
         "transcript": "AH! Desert pothole! Sorry! Hang on!",
         "thaiTranslation": "อ๊ะ! หลุมตรงหน้า ในทะเลทราย! ขอโทษ! เกาะไว้!",
         "duration": 2.0,
@@ -78,7 +78,7 @@
       },
       {
         "id": 5,
-        "videoUrl": "/video/Scene5.mp4",
+        "videoUrl": "/video/desert/Scene5.mp4",
         "transcript": "What if we can't find her…?",
         "thaiTranslation": "ถ้าเราหาเธอไม่เจอล่ะ...?",
         "duration": 2.5,
@@ -95,7 +95,7 @@
       },
       {
         "id": 6,
-        "videoUrl": "/video/Scene6.mp4",
+        "videoUrl": "/video/desert/Scene6.mp4",
         "transcript": "We always find our friends. That's our thing.",
         "thaiTranslation": "เราจะต้องหาเพื่อนของเราเจอเสมอ นั่นคือสิ่งที่เราทำ",
         "duration": 2.0,
@@ -112,7 +112,7 @@
       },
       {
         "id": 7,
-        "videoUrl": "/video/Scene7.mp4",
+        "videoUrl": "/video/desert/Scene7.mp4",
         "transcript": "Yeah. You're right.",
         "thaiTranslation": "ใช่ คุณพูดถูก",
         "duration": 2.3,
@@ -129,7 +129,7 @@
       },
       {
         "id": 8,
-        "videoUrl": "/video/Scene8.mp4",
+        "videoUrl": "/video/desert/Scene8.mp4",
         "transcript": "Do you see that? I do!",
         "thaiTranslation": "คุณเห็นนั่นไหม? ฉันเห็น!",
         "duration": 2.0,
@@ -146,7 +146,7 @@
       },
       {
         "id": 9,
-        "videoUrl": "/video/Scene9.mp4",
+        "videoUrl": "/video/desert/Scene9.mp4",
         "transcript": "That looks like her trail.",
         "thaiTranslation": "นั่นดูเหมือนรอยของเธอ",
         "duration": 2.5,
@@ -163,7 +163,7 @@
       },
       {
         "id": 10,
-        "videoUrl": "/video/Scene10.mp4",
+        "videoUrl": "/video/desert/Scene10.mp4",
         "transcript": "YES! I knew my nose wasn't wrong!",
         "thaiTranslation": "ใช่! ฉันรู้ว่าจมูกของฉันไม่ผิด!",
         "duration": 2.8,
@@ -181,7 +181,7 @@
       },
       {
         "id": 11,
-        "videoUrl": "/video/Scene11.mp4",
+        "videoUrl": "/video/desert/Scene11.mp4",
         "transcript": "Hold on! We're coming!",
         "thaiTranslation": "เกาะไว้! เรากำลังมา!",
         "duration": 2.0,
@@ -198,7 +198,7 @@
       },
       {
         "id": 12,
-        "videoUrl": "/video/Scene12.mp4",
+        "videoUrl": "/video/desert/Scene12.mp4",
         "transcript": "She's gonna be so happy. I know.",
         "thaiTranslation": "เธอจะมีความสุขมาก ฉันรู้",
         "duration": 3.0,
@@ -212,6 +212,279 @@
           { "word": "happy", "translation": "มีความสุข", "definition": "feeling pleasure or joy" },
           { "word": "so", "translation": "มาก/ดังนั้น", "definition": "very; to a great extent" },
           { "word": "know", "translation": "รู้", "definition": "to be aware of or certain about something" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fluffy-monster-introduction",
+    "title": "Meet the Fluffy Monster",
+    "description": "Meet an adorable fluffy monster who wants to find a name and become your friend. A heartwarming story about friendship, identity, and learning together.",
+    "thumbnail": "/images/monster/fuzzy.png",
+    "difficulty": "beginner",
+    "totalScenes": 14,
+    "scenes": [
+      {
+        "id": 1,
+        "videoUrl": "/video/monster/Scene1.mp4",
+        "transcript": "Oh—wow! You can see me? That's amazing! I don't have a name yet… Can you help me find one?",
+        "thaiTranslation": "โอ้—ว้าว! คุณเห็นฉันได้เหรอ? นั่นมันยอดเยี่ยมมาก! ฉันยังไม่มีชื่อเลย… คุณช่วยหาชื่อให้ฉันได้ไหม?",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "Oh—wow! You can hear me? That's wonderful! I don't have a family yet… Can you help me find one?", "isCorrect": false },
+          { "text": "Oh—wow! You found me? That's great! I don't have a home yet… Can you help me find one?", "isCorrect": false },
+          { "text": "Oh—wow! You can see me? That's amazing! I don't have a name yet… Can you help me find one?", "isCorrect": true }
+        ],
+        "keywords": [
+          { "word": "can see", "translation": "สามารถเห็นได้", "definition": "to be able to perceive with eyes" },
+          { "word": "amazing", "translation": "น่าทึ่ง/ยอดเยี่ยม", "definition": "causing great surprise or wonder" },
+          { "word": "yet", "translation": "ยัง (ในประโยคปฏิเสธ)", "definition": "up to this time; still (used in negative sentences)" },
+          { "word": "help", "translation": "ช่วย/ช่วยเหลือ", "definition": "to assist or support someone" },
+          { "word": "find", "translation": "หา/ค้นหา", "definition": "to discover or locate something" }
+        ]
+      },
+      {
+        "id": 2,
+        "videoUrl": "/video/monster/Scene2.mp4",
+        "transcript": "I'm a little furry monster with big dreams, big feelings, and very big eyes.",
+        "thaiTranslation": "ฉันเป็นสัตว์ประหลาดตัวเล็กๆ ขนปุย ที่มีความฝันใหญ่ๆ ความรู้สึกที่ยิ่งใหญ่ และมีดวงตาที่ใหญ่มากๆ",
+        "duration": 3.8,
+        "listeningOptions": [
+          { "text": "I'm a little fluffy monster with big hopes, big emotions, and very big ears.", "isCorrect": false },
+          { "text": "I'm a little furry monster with big dreams, big feelings, and very big eyes.", "isCorrect": true },
+          { "text": "I'm a tiny fuzzy creature with big wishes, big thoughts, and very big paws.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "furry", "translation": "ขนปุย/มีขนมาก", "definition": "covered with fur or soft hair" },
+          { "word": "monster", "translation": "สัตว์ประหลาด", "definition": "an imaginary creature, often large and frightening" },
+          { "word": "dreams", "translation": "ความฝัน", "definition": "hopes and ambitions for the future" },
+          { "word": "feelings", "translation": "ความรู้สึก", "definition": "emotions or sensations" },
+          { "word": "eyes", "translation": "ดวงตา/ตา", "definition": "organs of sight" }
+        ]
+      },
+      {
+        "id": 3,
+        "videoUrl": "/video/monster/Scene3.mp4",
+        "transcript": "Some people say my fur looks like a cloud mixed with a teddy bear— and honestly? I love that.",
+        "thaiTranslation": "บางคนบอกว่าขนของฉันดูเหมือนเมฆผสมกับตุ๊กตาหมี— และบอกตรงๆ เลยนะ? ฉันชอบมากเลย",
+        "duration": 4.2,
+        "listeningOptions": [
+          { "text": "Some people say my fur looks like cotton candy mixed with a pillow— and honestly? I love that.", "isCorrect": false },
+          { "text": "Some people say my fur feels like marshmallows mixed with a stuffed animal— and honestly? I love that.", "isCorrect": false },
+          { "text": "Some people say my fur looks like a cloud mixed with a teddy bear— and honestly? I love that.", "isCorrect": true }
+        ],
+        "keywords": [
+          { "word": "fur", "translation": "ขน/ขนสัตว์", "definition": "the soft thick hair covering an animal's body" },
+          { "word": "looks like", "translation": "ดูเหมือน", "definition": "appears similar to; resembles" },
+          { "word": "cloud", "translation": "เมฆ", "definition": "a white or gray mass in the sky made of water droplets" },
+          { "word": "mixed with", "translation": "ผสมกับ", "definition": "combined or blended together with" },
+          { "word": "honestly", "translation": "พูดตามตรง/จริงๆ แล้ว", "definition": "in a truthful or sincere way" }
+        ]
+      },
+      {
+        "id": 4,
+        "videoUrl": "/video/monster/Scene4.mp4",
+        "transcript": "I may look small, but my heart is HUGE. 💛 I love helping, exploring, and delivering smiles wherever I go.",
+        "thaiTranslation": "ฉันอาจดูตัวเล็ก แต่หัวใจของฉันมันใหญ่มาก 💛 ฉันรักการช่วยเหลือ การสำรวจ และการมอบรอยยิ้มไปทุกที่ที่ฉันไป",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "I may look tiny, but my spirit is HUGE. 💛 I love caring, discovering, and sharing happiness wherever I go.", "isCorrect": false },
+          { "text": "I may look small, but my heart is HUGE. 💛 I love helping, exploring, and delivering smiles wherever I go.", "isCorrect": true },
+          { "text": "I may seem little, but my courage is HUGE. 💛 I love giving, wandering, and bringing joy wherever I go.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "may", "translation": "อาจจะ", "definition": "expressing possibility" },
+          { "word": "heart", "translation": "หัวใจ/จิตใจ", "definition": "the center of emotions and feelings" },
+          { "word": "helping", "translation": "การช่วยเหลือ", "definition": "assisting or supporting others" },
+          { "word": "exploring", "translation": "การสำรวจ", "definition": "traveling to discover new places or things" },
+          { "word": "wherever", "translation": "ทุกที่ที่", "definition": "in or to any place" }
+        ]
+      },
+      {
+        "id": 5,
+        "videoUrl": "/video/monster/Scene5.mp4",
+        "transcript": "See this vest? It's my delivery vest! Sometimes I deliver packages, sometimes stories,",
+        "thaiTranslation": "เห็นเสื้อกั๊กนี้ไหม? มันเป็นเสื้อกั๊กส่งของของฉัน! บางครั้งฉันส่งพัสดุ บางครั้งส่งเรื่องราว",
+        "duration": 3.8,
+        "listeningOptions": [
+          { "text": "See this jacket? It's my mail jacket! Sometimes I carry letters, sometimes messages,", "isCorrect": false },
+          { "text": "See this vest? It's my delivery vest! Sometimes I deliver packages, sometimes stories,", "isCorrect": true },
+          { "text": "See this shirt? It's my helper shirt! Sometimes I bring boxes, sometimes books,", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "vest", "translation": "เสื้อกั๊ก", "definition": "a sleeveless garment worn on the upper body" },
+          { "word": "delivery", "translation": "การส่ง/การนำส่ง", "definition": "the action of bringing goods or items to someone" },
+          { "word": "deliver", "translation": "ส่ง/นำส่ง", "definition": "to bring and hand over items to someone" },
+          { "word": "packages", "translation": "พัสดุ/หีบห่อ", "definition": "objects wrapped or boxed for transport" },
+          { "word": "sometimes", "translation": "บางครั้ง", "definition": "occasionally; at times" }
+        ]
+      },
+      {
+        "id": 6,
+        "videoUrl": "/video/monster/Scene6.mp4",
+        "transcript": "sometimes… a little courage when someone needs it most.",
+        "thaiTranslation": "บางครั้ง… กำลังใจนิดหน่อย เมื่อมีคนต้องการมันมากที่สุด",
+        "duration": 3.0,
+        "listeningOptions": [
+          { "text": "sometimes… a little courage when someone needs it most.", "isCorrect": true },
+          { "text": "sometimes… a little bravery when someone wants it most.", "isCorrect": false },
+          { "text": "sometimes… a little hope when someone asks for it most.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "courage", "translation": "ความกล้าหาญ/กำลังใจ", "definition": "the ability to do something frightening; bravery" },
+          { "word": "needs", "translation": "ต้องการ", "definition": "requires; has a necessity for" },
+          { "word": "most", "translation": "มากที่สุด", "definition": "to the greatest degree" }
+        ]
+      },
+      {
+        "id": 7,
+        "videoUrl": "/video/monster/Scene7.mp4",
+        "transcript": "I get excited easily— like really excited! But I also care deeply.",
+        "thaiTranslation": "ฉันตื่นเต้นง่ายมาก— ตื่นเต้นจริงๆ เลย! แต่ฉันก็ใส่ใจอย่างลึกซึ้งเช่นกัน",
+        "duration": 3.5,
+        "listeningOptions": [
+          { "text": "I get happy easily— like really happy! But I also think deeply.", "isCorrect": false },
+          { "text": "I get joyful quickly— like really joyful! But I also feel deeply.", "isCorrect": false },
+          { "text": "I get excited easily— like really excited! But I also care deeply.", "isCorrect": true }
+        ],
+        "keywords": [
+          { "word": "get excited", "translation": "ตื่นเต้น", "definition": "to become enthusiastic or eager" },
+          { "word": "easily", "translation": "ง่ายๆ/โดยง่าย", "definition": "without difficulty; readily" },
+          { "word": "really", "translation": "จริงๆ/อย่างแท้จริง", "definition": "very; truly; actually" },
+          { "word": "care", "translation": "ใส่ใจ/ห่วงใย", "definition": "to feel concern or interest" },
+          { "word": "deeply", "translation": "อย่างลึกซึ้ง", "definition": "intensely; profoundly" }
+        ]
+      },
+      {
+        "id": 8,
+        "videoUrl": "/video/monster/Scene8.mp4",
+        "transcript": "When you're happy, I bounce with joy. When you're nervous, I sit quietly and listen.",
+        "thaiTranslation": "เมื่อคุณมีความสุข ฉันก็กระโดดโลดเต้นด้วยความชื่นบาน เมื่อคุณกังวล ฉันก็นั่งเงียบๆ และฟัง",
+        "duration": 4.0,
+        "listeningOptions": [
+          { "text": "When you're cheerful, I dance with happiness. When you're worried, I stand close and pay attention.", "isCorrect": false },
+          { "text": "When you're happy, I bounce with joy. When you're nervous, I sit quietly and listen.", "isCorrect": true },
+          { "text": "When you're smiling, I jump with delight. When you're scared, I stay near and watch.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "bounce", "translation": "กระโดด/เด้ง", "definition": "to jump up and down repeatedly" },
+          { "word": "joy", "translation": "ความชื่นบาน/ความยินดี", "definition": "a feeling of great happiness" },
+          { "word": "nervous", "translation": "กังวล/ประหม่า", "definition": "worried or anxious" },
+          { "word": "quietly", "translation": "อย่างเงียบๆ", "definition": "in a silent or calm manner" },
+          { "word": "listen", "translation": "ฟัง/รับฟัง", "definition": "to pay attention to sounds or what someone says" }
+        ]
+      },
+      {
+        "id": 9,
+        "videoUrl": "/video/monster/Scene9.mp4",
+        "transcript": "when things feel hard, I'll remind you that it's okay to try, even if you make mistakes.",
+        "thaiTranslation": "เมื่อสิ่งต่างๆ รู้สึกยาก ฉันจะเตือนคุณว่ามันไม่เป็นไรที่จะลอง แม้ว่าคุณจะทำผิดพลาดก็ตาม",
+        "duration": 4.2,
+        "listeningOptions": [
+          { "text": "when things feel hard, I'll remind you that it's okay to try, even if you make mistakes.", "isCorrect": true },
+          { "text": "when things feel tough, I'll tell you that it's fine to practice, even if you get it wrong.", "isCorrect": false },
+          { "text": "when things seem difficult, I'll show you that it's alright to attempt, even if you fail sometimes.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "feel hard", "translation": "รู้สึกยาก", "definition": "to seem difficult or challenging" },
+          { "word": "remind", "translation": "เตือน/เตือนความจำ", "definition": "to cause someone to remember something" },
+          { "word": "okay", "translation": "ไม่เป็นไร/โอเค", "definition": "acceptable; all right" },
+          { "word": "try", "translation": "ลอง/พยายาม", "definition": "to attempt or make an effort" },
+          { "word": "mistakes", "translation": "ความผิดพลาด", "definition": "errors or things done incorrectly" }
+        ]
+      },
+      {
+        "id": 10,
+        "videoUrl": "/video/monster/Scene10.mp4",
+        "transcript": "I believe learning should feel fun, not scary. Every step matters. Every word matters. Every tiny win matters.",
+        "thaiTranslation": "ฉันเชื่อว่าการเรียนรู้ควรรู้สึกสนุก ไม่ใช่น่ากลัว ทุกก้าวมีความสำคัญ ทุกคำมีความหมาย ทุกชัยชนะเล็กๆ ล้วนมีคุณค่า",
+        "duration": 5.0,
+        "listeningOptions": [
+          { "text": "I believe learning should be enjoyable, not frightening. Every moment counts. Every action counts. Every small victory counts.", "isCorrect": false },
+          { "text": "I believe learning should feel fun, not scary. Every step matters. Every word matters. Every tiny win matters.", "isCorrect": true },
+          { "text": "I think learning should seem exciting, not terrifying. Every try matters. Every choice matters. Every little success matters.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "believe", "translation": "เชื่อ", "definition": "to think something is true" },
+          { "word": "should", "translation": "ควร", "definition": "expressing what is right or recommended" },
+          { "word": "scary", "translation": "น่ากลัว", "definition": "frightening; causing fear" },
+          { "word": "step", "translation": "ก้าว/ขั้นตอน", "definition": "one movement or stage in a process" },
+          { "word": "matters", "translation": "มีความสำคัญ", "definition": "is important or significant" }
+        ]
+      },
+      {
+        "id": 11,
+        "videoUrl": "/video/monster/Scene11.mp4",
+        "transcript": "guess what? You don't have to be perfect— you just have to keep going.",
+        "thaiTranslation": "เดาดูสิ? คุณไม่จำเป็นต้องสมบูรณ์แบบ— คุณแค่ต้องเดินหน้าต่อไป",
+        "duration": 3.5,
+        "listeningOptions": [
+          { "text": "guess what? You don't need to be flawless— you just need to keep trying.", "isCorrect": false },
+          { "text": "guess what? You don't must be amazing— you just must keep moving.", "isCorrect": false },
+          { "text": "guess what? You don't have to be perfect— you just have to keep going.", "isCorrect": true }
+        ],
+        "keywords": [
+          { "word": "guess what", "translation": "เดาดูสิ/รู้อะไรไหม", "definition": "used to introduce surprising or interesting news" },
+          { "word": "have to", "translation": "ต้อง/จำเป็นต้อง", "definition": "expressing obligation or necessity" },
+          { "word": "perfect", "translation": "สมบูรณ์แบบ", "definition": "having no flaws or errors" },
+          { "word": "keep going", "translation": "เดินหน้าต่อไป/ทำต่อไป", "definition": "to continue moving or doing something" }
+        ]
+      },
+      {
+        "id": 12,
+        "videoUrl": "/video/monster/Scene12.mp4",
+        "transcript": "So… if you were my friend, what name would you give me? I'll wear it proudly. I promise.",
+        "thaiTranslation": "งั้น… ถ้าคุณเป็นเพื่อนของฉัน คุณจะตั้งชื่ออะไรให้ฉัน? ฉันจะสวมใส่มันด้วยความภาคภูมิใจ ฉันสัญญา",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "So… if you were my friend, what name would you give me? I'll wear it proudly. I promise.", "isCorrect": true },
+          { "text": "So… if you were my buddy, what title would you give me? I'll use it happily. I promise.", "isCorrect": false },
+          { "text": "So… if you became my pal, what nickname would you give me? I'll carry it forever. I promise.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "if", "translation": "ถ้า", "definition": "used to introduce a conditional statement" },
+          { "word": "were", "translation": "เป็น (สมมติฐาน)", "definition": "past subjunctive form of 'be', used in hypothetical situations" },
+          { "word": "give", "translation": "ให้/มอบให้", "definition": "to present or provide something to someone" },
+          { "word": "wear", "translation": "สวมใส่/ใช้", "definition": "to carry or have on oneself" },
+          { "word": "proudly", "translation": "ด้วยความภาคภูมิใจ", "definition": "with a feeling of pride or satisfaction" },
+          { "word": "promise", "translation": "สัญญา", "definition": "a declaration that one will do something" }
+        ]
+      },
+      {
+        "id": 13,
+        "videoUrl": "/video/monster/Scene13.mp4",
+        "transcript": "Big eyes, fluffy fur, open heart— ready to go on this adventure with you. Can you name me?",
+        "thaiTranslation": "ดวงตาโต ขนปุย หัวใจเปิดกว้าง— พร้อมที่จะผจญภัยไปกับคุณ คุณตั้งชื่อให้ฉันได้ไหม?",
+        "duration": 4.0,
+        "listeningOptions": [
+          { "text": "Huge eyes, soft fur, kind heart— ready to start this journey with you. Can you name me?", "isCorrect": false },
+          { "text": "Big eyes, fluffy fur, open heart— ready to go on this adventure with you. Can you name me?", "isCorrect": true },
+          { "text": "Large eyes, fuzzy fur, warm heart— ready to begin this quest with you. Can you name me?", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "big", "translation": "ใหญ่", "definition": "large in size" },
+          { "word": "fluffy", "translation": "ปุย/นุ่มฟู", "definition": "soft and light; covered with soft fur" },
+          { "word": "open heart", "translation": "หัวใจเปิดกว้าง", "definition": "willing to accept and care for others" },
+          { "word": "ready", "translation": "พร้อม", "definition": "prepared or willing to do something" },
+          { "word": "adventure", "translation": "การผจญภัย", "definition": "an exciting or unusual experience" },
+          { "word": "name", "translation": "ตั้งชื่อ", "definition": "to give a name to someone or something" }
+        ]
+      },
+      {
+        "id": 14,
+        "videoUrl": "/video/monster/Scene14.mp4",
+        "transcript": "So, I can call by the name you give me, Thanks!!",
+        "thaiTranslation": "งั้น ฉันจะถูกเรียกด้วยชื่อที่คุณตั้งให้ ขอบคุณ!!",
+        "duration": 3.0,
+        "listeningOptions": [
+          { "text": "So, I can call by the name you give me, Thanks!!", "isCorrect": true },
+          { "text": "So, I will answer to the name you chose for me, Thank you!!", "isCorrect": false },
+          { "text": "So, I shall use the name you picked for me, Many thanks!!", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "call", "translation": "เรียก", "definition": "to address someone by a particular name" },
+          { "word": "by", "translation": "โดย/ด้วย", "definition": "using; through the means of" },
+          { "word": "thanks", "translation": "ขอบคุณ", "definition": "expression of gratitude" }
         ]
       }
     ]

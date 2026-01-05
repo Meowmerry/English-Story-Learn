@@ -89,10 +89,10 @@ const WritingMode = ({ scene, onComplete }) => {
       </div>
 
       {/* Translation Reference */}
-      <div className="bg-gradient-to-r from-orange-50 to-yellow-50 p-4 rounded-lg mb-6">
+      {/* <div className="bg-gradient-to-r from-orange-50 to-yellow-50 p-4 rounded-lg mb-6">
         <p className="text-sm text-gray-600 mb-1">Thai Translation (Hint):</p>
         <p className="text-lg font-medium text-gray-800">{scene.thaiTranslation}</p>
-      </div>
+      </div> */}
 
       {/* Input Area */}
       <div className="mb-6">
@@ -111,8 +111,8 @@ const WritingMode = ({ scene, onComplete }) => {
             ${result?.isCorrect
               ? 'border-green-500 bg-green-50'
               : result && !result.isCorrect
-              ? 'border-yellow-500 bg-yellow-50'
-              : 'border-gray-300 hover:border-gray-400'
+                ? 'border-yellow-500 bg-yellow-50'
+                : 'border-gray-300 hover:border-gray-400'
             }
           `}
           rows="4"
@@ -209,7 +209,7 @@ const WritingMode = ({ scene, onComplete }) => {
         <ul className="text-sm text-gray-600 space-y-1">
           <li>• Listen to the video multiple times if needed</li>
           <li>• Don't worry about perfect punctuation - focus on the words</li>
-          <li>• Use the Thai translation as a hint if you're stuck</li>
+          {/* <li>• Use the Thai translation as a hint if you're stuck</li> */}
           <li>• Score 90%+ for full XP, 75%+ for partial XP</li>
         </ul>
       </div>
