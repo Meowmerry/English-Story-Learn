@@ -1,4 +1,4 @@
-import { doc, getDoc, setDoc, updateDoc, serverTimestamp, collection, getDocs, query, where, orderBy } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, serverTimestamp, collection, getDocs, query, where, orderBy, addDoc, limit } from 'firebase/firestore';
 import { db } from './config';
 
 // Save user progress to Firestore
@@ -293,5 +293,58 @@ export const getStoriesByDifficulty = async (difficulty) => {
   } catch (error) {
     console.error('Error getting stories by difficulty:', error);
     return { data: null, error: error.message };
+  }
+};
+
+// ============ CHAT FUNCTIONS ============
+
+// Save a chat message to Firestore
+export const saveChatMessage = async (userId, message) => {
+  if (!userId) {
+    console.warn('No user ID provided for saving chat message');
+    return { success: false, error: 'No user ID' };
+  }
+
+  try {
+    const chatRef = collection(db, 'userChats', userId, 'messages');
+    await addDoc(chatRef, {
+      role: message.role,
+      content: message.content,
+      timestamp: serverTimestamp()
+    });
+
+    return { success: true, error: null };
+  } catch (error) {
+    console.error('Error saving chat message:', error);
+    return { success: false, error: error.message };
+  }
+};
+
+// Get chat history from Firestore
+export const getChatHistory = async (userId, limitCount = 50) => {
+  if (!userId) {
+    console.warn('No user ID provided for getting chat history');
+    return [];
+  }
+
+  try {
+    const chatRef = collection(db, 'userChats', userId, 'messages');
+    const q = query(chatRef, orderBy('timestamp', 'asc'), limit(limitCount));
+    const querySnapshot = await getDocs(q);
+
+    const messages = [];
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      messages.push({
+        role: data.role,
+        content: data.content,
+        timestamp: data.timestamp?.toDate() || new Date()
+      });
+    });
+
+    return messages;
+  } catch (error) {
+    console.error('Error getting chat history:', error);
+    return [];
   }
 };

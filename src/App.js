@@ -7,6 +7,7 @@ import Resources from './components/Resources';
 import AboutMe from './components/AboutMe';
 import StatsDisplay from './components/StatsDisplay';
 import Footer from './components/Footer';
+import FloatingChatbot from './components/FloatingChatbot';
 import { getAllStories } from './firebase/firestoreService';
 import storiesData from './data/stories.json';
 
@@ -206,6 +207,9 @@ function AppContent() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Floating Chatbot */}
+      <FloatingChatbot />
     </div>
   );
 }
