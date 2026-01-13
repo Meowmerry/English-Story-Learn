@@ -33,7 +33,8 @@ function FloatingChatbot() {
 
   const checkServerHealth = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/health');
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+      const response = await fetch(`${API_URL}/api/health`);
       const data = await response.json();
       setServerStatus(data.ollama === 'connected' ? 'connected' : 'disconnected');
     } catch (error) {
@@ -94,8 +95,9 @@ How can I help you today?`,
         content: msg.content
       }));
 
-      // Call backend API
-      const response = await fetch('http://localhost:3001/api/chat', {
+      // Call backend API (Firebase Functions or local)
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+      const response = await fetch(`${API_URL}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
