@@ -11,7 +11,10 @@ Since we've set the secret, we need to make it available to the function. The ea
 5. Click **Add variable**
 6. Add:
    - **Name**: `CLAUDE_API_KEY`
-   - **Value**: `YOUR_CLAUDE_API_KEY`
+
+
+   - **Value**: `YOUR_CLAUDE_API_KEY` (get from https://console.anthropic.com/)
+
 7. Click **Save**
 
 ## Option 2: Use Secret (After First Deploy)

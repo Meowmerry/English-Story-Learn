@@ -1,4 +1,4 @@
-const functions = require('firebase-functions');
+const { onRequest } = require('firebase-functions/v2/https');
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -119,5 +119,5 @@ app.get('/api/health', async (req, res) => {
   });
 });
 
-// Export the Express app as a Firebase Function
-exports.api = functions.https.onRequest(app);
+// Export the Express app as a Firebase Function with secrets
+exports.api = onRequest({ secrets: ['CLAUDE_API_KEY'] }, app);

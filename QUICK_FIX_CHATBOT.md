@@ -19,7 +19,10 @@ Click on the **Configuration** tab at the top.
 2. Click **Add variable** button
 3. Enter:
    - **Name**: `CLAUDE_API_KEY`
-   - **Value**: `YOUR_CLAUDE_API_KEY`
+
+
+   - **Value**: `YOUR_CLAUDE_API_KEY` (get from https://console.anthropic.com/)
+
 4. Click **Save**
 
 ### Step 5: Wait & Test

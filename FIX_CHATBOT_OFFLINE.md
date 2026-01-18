@@ -15,7 +15,10 @@ The backend function doesn't have the `CLAUDE_API_KEY` environment variable set.
 5. Click **Add variable**
 6. Add:
    - **Name**: `CLAUDE_API_KEY`
-   - **Value**: `YOUR_CLAUDE_API_KEY`
+
+
+   - **Value**: `YOUR_CLAUDE_API_KEY` (get from https://console.anthropic.com/)
+
 7. Click **Save**
 
 The function will automatically update with the new environment variable.
