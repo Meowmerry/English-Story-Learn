@@ -25,6 +25,7 @@ const createUserProfile = async (user, additionalData = {}) => {
       await setDoc(userRef, {
         email,
         displayName: displayName || email.split('@')[0],
+        role: 'user', // Default role is 'user', manually set to 'admin' in Firestore for admins
         createdAt,
         lastLogin: createdAt,
         ...additionalData
@@ -130,4 +131,19 @@ export const onAuthChange = (callback) => {
 // Get current user
 export const getCurrentUser = () => {
   return auth.currentUser;
+};
+
+// Get user role from Firestore
+export const getUserRole = async (userId) => {
+  try {
+    const userRef = doc(db, 'users', userId);
+    const snapshot = await getDoc(userRef);
+    if (snapshot.exists()) {
+      return snapshot.data().role || 'user';
+    }
+    return 'user';
+  } catch (error) {
+    console.error('Error getting user role:', error);
+    return 'user';
+  }
 };

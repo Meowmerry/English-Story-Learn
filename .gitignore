@@ -32,3 +32,9 @@ public/images/3DAnimatedTrueFriend.mov
 
 # Firebase cache
 .firebase/
+
+# Functions
+functions/node_modules/
+functions/.env
+functions/.env.local
+functions/.runtimeconfig.json

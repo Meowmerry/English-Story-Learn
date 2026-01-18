@@ -4,7 +4,8 @@ import {
   loginWithEmail,
   registerWithEmail,
   loginWithGoogle,
-  logout as firebaseLogout
+  logout as firebaseLogout,
+  getUserRole
 } from '../firebase/authService';
 import { getUserProgress, saveUserProgress, syncLocalToFirestore } from '../firebase/firestoreService';
 import { getStats, resetStats } from '../utils/statsSystem';
@@ -22,6 +23,7 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [userRole, setUserRole] = useState('user');
   const [loading, setLoading] = useState(true);
   const [syncing, setSyncing] = useState(false);
 
@@ -30,6 +32,10 @@ export const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthChange(async (firebaseUser) => {
       if (firebaseUser) {
         setUser(firebaseUser);
+
+        // Fetch user role from Firestore
+        const role = await getUserRole(firebaseUser.uid);
+        setUserRole(role);
 
         // Sync local data to Firebase when user logs in
         setSyncing(true);
@@ -49,6 +55,7 @@ export const AuthProvider = ({ children }) => {
         }
       } else {
         setUser(null);
+        setUserRole('user');
       }
       setLoading(false);
     });
@@ -135,6 +142,7 @@ export const AuthProvider = ({ children }) => {
 
   const value = {
     user,
+    userRole,
     loading,
     syncing,
     login,
@@ -142,7 +150,8 @@ export const AuthProvider = ({ children }) => {
     loginGoogle,
     logout,
     syncProgress,
-    isAuthenticated: !!user
+    isAuthenticated: !!user,
+    isAdmin: userRole === 'admin'
   };
 
   return (

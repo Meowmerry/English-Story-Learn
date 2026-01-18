@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe';
 import StatsDisplay from './components/StatsDisplay';
 import Footer from './components/Footer';
 import FloatingChatbot from './components/FloatingChatbot';
+import AdminUpload from './components/AdminUpload';
 import { getAllStories } from './firebase/firestoreService';
 import storiesData from './data/stories.json';
 
@@ -201,6 +202,7 @@ function AppContent() {
             <Route path="/progress" element={<StatsDisplay />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<AboutMe />} />
+            <Route path="/admin/upload" element={<AdminUpload />} />
           </Routes>
         </main>
       </div>

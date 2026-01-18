@@ -17,16 +17,16 @@ npm run build
 if [ $? -eq 0 ]; then
     echo "✅ Build successful!"
     echo ""
-    echo "🔥 Deploying to Firebase Hosting..."
-    firebase deploy --only hosting
+    echo "🔥 Deploying to Firebase (Hosting + Functions)..."
+    firebase deploy
     
     if [ $? -eq 0 ]; then
         echo ""
         echo "✅ Deployment successful!"
         echo ""
         echo "🌐 Your app is live at:"
-        echo "   https://storyflow-english-learning.web.app"
-        echo "   https://storyflow-english-learning.firebaseapp.com"
+        echo "   Frontend: https://storyflow-english-learning.web.app"
+        echo "   Backend:  https://us-central1-storyflow-english-learning.cloudfunctions.net/api"
     else
         echo "❌ Deployment failed!"
     fi

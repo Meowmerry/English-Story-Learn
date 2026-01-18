@@ -1,4 +1,4 @@
-import { doc, getDoc, setDoc, updateDoc, serverTimestamp, collection, getDocs, query, where, orderBy, addDoc, limit } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, deleteDoc, serverTimestamp, collection, getDocs, query, where, orderBy, addDoc, limit } from 'firebase/firestore';
 import { db } from './config';
 
 // Save user progress to Firestore
@@ -346,5 +346,29 @@ export const getChatHistory = async (userId, limitCount = 50) => {
   } catch (error) {
     console.error('Error getting chat history:', error);
     return [];
+  }
+};
+
+// Clear chat history from Firestore
+export const clearChatHistory = async (userId) => {
+  if (!userId) {
+    console.warn('No user ID provided for clearing chat history');
+    return { success: false, error: 'No user ID' };
+  }
+
+  try {
+    const chatRef = collection(db, 'userChats', userId, 'messages');
+    const querySnapshot = await getDocs(chatRef);
+
+    const deletePromises = [];
+    querySnapshot.forEach((document) => {
+      deletePromises.push(deleteDoc(doc(db, 'userChats', userId, 'messages', document.id)));
+    });
+
+    await Promise.all(deletePromises);
+    return { success: true, error: null };
+  } catch (error) {
+    console.error('Error clearing chat history:', error);
+    return { success: false, error: error.message };
   }
 };

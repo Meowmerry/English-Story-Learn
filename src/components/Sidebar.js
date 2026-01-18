@@ -7,7 +7,7 @@ import RegisterModal from './auth/RegisterModal';
 import { useAuth } from '../contexts/AuthContext';
 
 const Sidebar = ({ stories, onStorySelect, isOpen, onClose }) => {
-  const { user, logout } = useAuth();
+  const { user, logout, isAdmin } = useAuth();
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showRegisterModal, setShowRegisterModal] = useState(false);
   const location = useLocation();
@@ -131,6 +131,24 @@ const Sidebar = ({ stories, onStorySelect, isOpen, onClose }) => {
                 <span>{item.label}</span>
               </Link>
             ))}
+            {/* Admin Only - Upload Stories Button */}
+            {isAdmin && (
+              <Link
+                to="/admin/upload"
+                onClick={onClose}
+                className={`
+                  w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors
+                  ${isActivePath('/admin/upload')
+                    ? 'bg-red-100 text-red-700 font-semibold'
+                    : 'text-red-600 hover:bg-red-50 border border-red-200'
+                  }
+                `}
+              >
+                <span className="text-xl">⬆️</span>
+                <span>Upload Stories</span>
+                <span className="ml-auto text-xs bg-red-100 text-red-600 px-2 py-0.5 rounded-full">Admin</span>
+              </Link>
+            )}
           </nav>
         </div>
 
