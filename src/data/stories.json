@@ -499,7 +499,7 @@
     "scenes": [
       {
         "id": 1,
-        "videoUrl": "/video/portfolio/scene1.mp4",
+        "videoUrl": "/video/portfolio/Scene1.mp4",
         "transcript": "Hi, I'm Thasanee — a Software Engineer who loves turning complex problems into clean, intuitive solutions.",
         "thaiTranslation": "สวัสดีค่ะ ฉันชื่อทัศนีย์ — วิศวกรซอฟต์แวร์ที่ชอบเปลี่ยนปัญหาที่ซับซ้อนให้กลายเป็นโซลูชันที่ชัดเจนและใช้งานง่าย",
         "duration": 5.0,
@@ -517,7 +517,7 @@
       },
       {
         "id": 2,
-        "videoUrl": "/video/portfolio/scene2.mp4",
+        "videoUrl": "/video/portfolio/Scene2.mp4",
         "transcript": "My journey started with curiosity — how ideas turn into real products people use.",
         "thaiTranslation": "การเดินทางของฉันเริ่มต้นด้วยความอยากรู้ — ไอเดียกลายเป็นผลิตภัณฑ์จริงที่คนใช้ได้อย่างไร",
         "duration": 4.5,
@@ -535,7 +535,7 @@
       },
       {
         "id": 3,
-        "videoUrl": "/video/portfolio/scene3.mp4",
+        "videoUrl": "/video/portfolio/Scene3.mp4",
         "transcript": "I specialize in building modern web applications, with strong experience across frontend and full-stack systems.",
         "thaiTranslation": "ฉันเชี่ยวชาญในการสร้างเว็บแอปพลิเคชันสมัยใหม่ โดยมีประสบการณ์ที่แข็งแกร่งทั้งด้าน frontend และระบบ full-stack",
         "duration": 5.0,
@@ -553,7 +553,7 @@
       },
       {
         "id": 4,
-        "videoUrl": "/video/portfolio/scene4.mp4",
+        "videoUrl": "/video/portfolio/Scene4.mp4",
         "transcript": "I collaborate closely with backend systems, APIs, and data pipelines to deliver reliable, production-ready software.",
         "thaiTranslation": "ฉันทำงานร่วมกันอย่างใกล้ชิดกับระบบ backend, API และ data pipeline เพื่อส่งมอบซอฟต์แวร์ที่เชื่อถือได้และพร้อมใช้งานจริง",
         "duration": 5.5,
@@ -572,7 +572,7 @@
       },
       {
         "id": 5,
-        "videoUrl": "/video/portfolio/scene5.mp4",
+        "videoUrl": "/video/portfolio/Scene5.mp4",
         "transcript": "I've built and maintained software used by internal teams and hundreds of thousands of users.",
         "thaiTranslation": "ฉันได้สร้างและดูแลซอฟต์แวร์ที่ใช้โดยทีมภายในและผู้ใช้หลายแสนคน",
         "duration": 4.5,
@@ -590,7 +590,7 @@
       },
       {
         "id": 6,
-        "videoUrl": "/video/portfolio/scene6.mp4",
+        "videoUrl": "/video/portfolio/Scene6.mp4",
         "transcript": "At Rice University, I led the migration from a legacy system to modern React — improving performance and developer productivity.",
         "thaiTranslation": "ที่มหาวิทยาลัยไรซ์ ฉันเป็นผู้นำการย้ายระบบจากระบบเก่าไปสู่ React สมัยใหม่ — ปรับปรุงประสิทธิภาพและประสิทธิผลของนักพัฒนา",
         "duration": 6.0,
@@ -608,7 +608,7 @@
       },
       {
         "id": 7,
-        "videoUrl": "/video/portfolio/scene7.mp4",
+        "videoUrl": "/video/portfolio/Scene7.mp4",
         "transcript": "I enjoy working with complex data — dashboards, maps, and visualizations that tell meaningful stories.",
         "thaiTranslation": "ฉันชอบทำงานกับข้อมูลที่ซับซ้อน — แดชบอร์ด แผนที่ และการแสดงผลข้อมูลที่เล่าเรื่องราวที่มีความหมาย",
         "duration": 5.0,
@@ -626,7 +626,7 @@
       },
       {
         "id": 8,
-        "videoUrl": "/video/portfolio/scene8.mp4",
+        "videoUrl": "/video/portfolio/Scene8.mp4",
         "transcript": "I also work full-stack — collaborating closely with backend systems and APIs.",
         "thaiTranslation": "ฉันยังทำงาน full-stack — ร่วมมืออย่างใกล้ชิดกับระบบ backend และ API",
         "duration": 4.0,
@@ -643,7 +643,7 @@
       },
       {
         "id": 9,
-        "videoUrl": "/video/portfolio/scene9.mp4",
+        "videoUrl": "/video/portfolio/Scene9.mp4",
         "transcript": "At Marketron, I modernized internal platforms and helped automate complex workflows at scale.",
         "thaiTranslation": "ที่ Marketron ฉันปรับปรุงแพลตฟอร์มภายในให้ทันสมัยและช่วยทำให้เวิร์กโฟลว์ที่ซับซ้อนเป็นอัตโนมัติในระดับใหญ่",
         "duration": 5.0,
@@ -661,7 +661,7 @@
       },
       {
         "id": 10,
-        "videoUrl": "/video/portfolio/scene10.mp4",
+        "videoUrl": "/video/portfolio/Scene10.mp4",
         "transcript": "I've also worked as a Product Owner — bridging business goals with technical execution.",
         "thaiTranslation": "ฉันยังเคยทำงานเป็น Product Owner — เชื่อมโยงเป้าหมายทางธุรกิจกับการดำเนินงานทางเทคนิค",
         "duration": 4.5,
@@ -679,7 +679,7 @@
       },
       {
         "id": 11,
-        "videoUrl": "/video/portfolio/scene11.mp4",
+        "videoUrl": "/video/portfolio/Scene11.mp4",
         "transcript": "Recently, I've been exploring AI — building chatbots, RAG systems, and integrating large language models into real products.",
         "thaiTranslation": "เมื่อเร็วๆ นี้ ฉันได้สำรวจ AI — สร้าง chatbot, ระบบ RAG และการผสมผสาน large language model เข้ากับผลิตภัณฑ์จริง",
         "duration": 6.0,
@@ -698,7 +698,7 @@
       },
       {
         "id": 12,
-        "videoUrl": "/video/portfolio/scene12.mp4",
+        "videoUrl": "/video/portfolio/Scene12.mp4",
         "transcript": "I care about clean code, thoughtful UX, and continuous learning. I'm currently open to new software engineering opportunities.",
         "thaiTranslation": "ฉันใส่ใจเรื่องโค้ดที่สะอาด, UX ที่รอบคอบ และการเรียนรู้อย่างต่อเนื่อง ขณะนี้ฉันเปิดรับโอกาสใหม่ๆ ในด้านวิศวกรรมซอฟต์แวร์",
         "duration": 5.5,
