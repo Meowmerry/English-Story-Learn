@@ -488,5 +488,233 @@
         ]
       }
     ]
+  },
+  {
+    "id": "thasanee-portfolio-introduction",
+    "title": "Meet Thasanee: A Software Engineer's Story",
+    "description": "Learn English through Thasanee's professional journey as a Software Engineer. Discover vocabulary about tech careers, software development, and professional growth.",
+    "thumbnail": "/images/portfolio/Scene1.png",
+    "difficulty": "intermediate",
+    "totalScenes": 12,
+    "scenes": [
+      {
+        "id": 1,
+        "videoUrl": "/video/portfolio/scene1.mp4",
+        "transcript": "Hi, I'm Thasanee — a Software Engineer who loves turning complex problems into clean, intuitive solutions.",
+        "thaiTranslation": "สวัสดีค่ะ ฉันชื่อทัศนีย์ — วิศวกรซอฟต์แวร์ที่ชอบเปลี่ยนปัญหาที่ซับซ้อนให้กลายเป็นโซลูชันที่ชัดเจนและใช้งานง่าย",
+        "duration": 5.0,
+        "listeningOptions": [
+          { "text": "Hi, I'm Thasanee — a Software Engineer who loves turning complex problems into clean, intuitive solutions.", "isCorrect": true },
+          { "text": "Hi, I'm Thasanee — a Software Engineer with 5+ years building production-grade web applications that solve real business problems.", "isCorrect": false },
+          { "text": "Hi, I'm Thasanee — a Software Engineer who's helped deliver software to over 600,000 users and counting.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "Software Engineer", "translation": "วิศวกรซอฟต์แวร์", "definition": "a professional who designs, develops, and maintains software systems" },
+          { "word": "complex", "translation": "ซับซ้อน", "definition": "consisting of many interconnected parts; difficult to understand" },
+          { "word": "intuitive", "translation": "ใช้งานง่าย/เข้าใจได้โดยสัญชาตญาณ", "definition": "easy to use or understand without instruction" },
+          { "word": "solutions", "translation": "โซลูชัน/ทางออก", "definition": "answers or ways to solve problems" }
+        ]
+      },
+      {
+        "id": 2,
+        "videoUrl": "/video/portfolio/scene2.mp4",
+        "transcript": "My journey started with curiosity — how ideas turn into real products people use.",
+        "thaiTranslation": "การเดินทางของฉันเริ่มต้นด้วยความอยากรู้ — ไอเดียกลายเป็นผลิตภัณฑ์จริงที่คนใช้ได้อย่างไร",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "My journey started with curiosity — how ideas turn into real products people use.", "isCorrect": true },
+          { "text": "My journey started with a simple question — how do ideas become the apps and platforms we use every day?", "isCorrect": false },
+          { "text": "From my first 'Hello World' to building full-stack applications, curiosity has been my constant companion.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "journey", "translation": "การเดินทาง/เส้นทาง", "definition": "a long trip or the process of personal development" },
+          { "word": "curiosity", "translation": "ความอยากรู้อยากเห็น", "definition": "a strong desire to learn or know something" },
+          { "word": "turn into", "translation": "กลายเป็น", "definition": "to change or transform into something else" },
+          { "word": "products", "translation": "ผลิตภัณฑ์", "definition": "items or services created for sale or use" }
+        ]
+      },
+      {
+        "id": 3,
+        "videoUrl": "/video/portfolio/scene3.mp4",
+        "transcript": "I specialize in building modern web applications, with strong experience across frontend and full-stack systems.",
+        "thaiTranslation": "ฉันเชี่ยวชาญในการสร้างเว็บแอปพลิเคชันสมัยใหม่ โดยมีประสบการณ์ที่แข็งแกร่งทั้งด้าน frontend และระบบ full-stack",
+        "duration": 5.0,
+        "listeningOptions": [
+          { "text": "I specialize in building modern web applications, with strong experience across frontend and full-stack systems.", "isCorrect": true },
+          { "text": "I specialize in React and TypeScript, building responsive, accessible interfaces that users actually enjoy.", "isCorrect": false },
+          { "text": "I build modern web applications with React, TypeScript, and Next.js — prioritizing performance and developer experience.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "specialize", "translation": "เชี่ยวชาญ", "definition": "to focus on and become expert in a particular area" },
+          { "word": "frontend", "translation": "ส่วนหน้า (ของเว็บ)", "definition": "the part of a website that users see and interact with" },
+          { "word": "full-stack", "translation": "ฟูลสแตค", "definition": "working with both frontend and backend parts of web development" },
+          { "word": "experience", "translation": "ประสบการณ์", "definition": "knowledge or skill gained from doing something over time" }
+        ]
+      },
+      {
+        "id": 4,
+        "videoUrl": "/video/portfolio/scene4.mp4",
+        "transcript": "I collaborate closely with backend systems, APIs, and data pipelines to deliver reliable, production-ready software.",
+        "thaiTranslation": "ฉันทำงานร่วมกันอย่างใกล้ชิดกับระบบ backend, API และ data pipeline เพื่อส่งมอบซอฟต์แวร์ที่เชื่อถือได้และพร้อมใช้งานจริง",
+        "duration": 5.5,
+        "listeningOptions": [
+          { "text": "I collaborate closely with backend systems, APIs, and data pipelines to deliver reliable, production-ready software.", "isCorrect": true },
+          { "text": "I work across the full stack — integrating with REST APIs, GraphQL, databases, and message queues to build complete solutions.", "isCorrect": false },
+          { "text": "From PostgreSQL to RabbitMQ to cloud deployment — I understand the whole system, not just the UI.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "collaborate", "translation": "ทำงานร่วมกัน", "definition": "to work together with others on a project" },
+          { "word": "backend", "translation": "ส่วนหลัง (ของระบบ)", "definition": "the server-side part of an application that handles data processing" },
+          { "word": "APIs", "translation": "เอพีไอ", "definition": "Application Programming Interfaces - ways for software to communicate" },
+          { "word": "production-ready", "translation": "พร้อมใช้งานจริง", "definition": "software that is stable and ready to be used by real users" },
+          { "word": "reliable", "translation": "เชื่อถือได้", "definition": "consistently good in quality or performance" }
+        ]
+      },
+      {
+        "id": 5,
+        "videoUrl": "/video/portfolio/scene5.mp4",
+        "transcript": "I've built and maintained software used by internal teams and hundreds of thousands of users.",
+        "thaiTranslation": "ฉันได้สร้างและดูแลซอฟต์แวร์ที่ใช้โดยทีมภายในและผู้ใช้หลายแสนคน",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "I've built and maintained software used by internal teams and hundreds of thousands of users.", "isCorrect": true },
+          { "text": "My work has reached hundreds of thousands of users — from internal tools to public-facing platforms.", "isCorrect": false },
+          { "text": "I've shipped features that improved team productivity by 30% and maintained systems serving 600,000+ users.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "built", "translation": "สร้าง (อดีต)", "definition": "past tense of build - to construct or create" },
+          { "word": "maintained", "translation": "ดูแลรักษา", "definition": "kept in good condition; continued to support" },
+          { "word": "internal teams", "translation": "ทีมภายใน", "definition": "employees within the same organization" },
+          { "word": "hundreds of thousands", "translation": "หลายแสน", "definition": "a very large number, typically 100,000 or more" }
+        ]
+      },
+      {
+        "id": 6,
+        "videoUrl": "/video/portfolio/scene6.mp4",
+        "transcript": "At Rice University, I led the migration from a legacy system to modern React — improving performance and developer productivity.",
+        "thaiTranslation": "ที่มหาวิทยาลัยไรซ์ ฉันเป็นผู้นำการย้ายระบบจากระบบเก่าไปสู่ React สมัยใหม่ — ปรับปรุงประสิทธิภาพและประสิทธิผลของนักพัฒนา",
+        "duration": 6.0,
+        "listeningOptions": [
+          { "text": "At Rice University, I led the migration from a legacy system to modern React — improving performance and developer productivity.", "isCorrect": true },
+          { "text": "At Rice University, I led a Vue-to-React migration, modernizing a platform that serves over 600,000 users globally.", "isCorrect": false },
+          { "text": "I architected and executed a complete frontend rewrite at Rice, improving load times and setting the foundation for future features.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "led", "translation": "นำ/เป็นผู้นำ (อดีต)", "definition": "past tense of lead - to guide or direct" },
+          { "word": "migration", "translation": "การย้าย/การโยกย้าย", "definition": "the process of moving from one system to another" },
+          { "word": "legacy system", "translation": "ระบบเก่า", "definition": "an old computer system still in use" },
+          { "word": "productivity", "translation": "ประสิทธิภาพการทำงาน", "definition": "the rate at which work is completed effectively" }
+        ]
+      },
+      {
+        "id": 7,
+        "videoUrl": "/video/portfolio/scene7.mp4",
+        "transcript": "I enjoy working with complex data — dashboards, maps, and visualizations that tell meaningful stories.",
+        "thaiTranslation": "ฉันชอบทำงานกับข้อมูลที่ซับซ้อน — แดชบอร์ด แผนที่ และการแสดงผลข้อมูลที่เล่าเรื่องราวที่มีความหมาย",
+        "duration": 5.0,
+        "listeningOptions": [
+          { "text": "I enjoy working with complex data — dashboards, maps, and visualizations that tell meaningful stories.", "isCorrect": true },
+          { "text": "I love making data tell stories — whether it's interactive maps, real-time dashboards, or complex visualizations.", "isCorrect": false },
+          { "text": "From AG Grid tables to D3 visualizations — I turn complex datasets into insights people can actually use.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "dashboards", "translation": "แดชบอร์ด", "definition": "visual displays showing key information and data" },
+          { "word": "visualizations", "translation": "การแสดงผลข้อมูล", "definition": "graphical representations of data or information" },
+          { "word": "meaningful", "translation": "มีความหมาย", "definition": "having significance or purpose" },
+          { "word": "complex data", "translation": "ข้อมูลที่ซับซ้อน", "definition": "information that is detailed and difficult to process" }
+        ]
+      },
+      {
+        "id": 8,
+        "videoUrl": "/video/portfolio/scene8.mp4",
+        "transcript": "I also work full-stack — collaborating closely with backend systems and APIs.",
+        "thaiTranslation": "ฉันยังทำงาน full-stack — ร่วมมืออย่างใกล้ชิดกับระบบ backend และ API",
+        "duration": 4.0,
+        "listeningOptions": [
+          { "text": "I also work full-stack — collaborating closely with backend systems and APIs.", "isCorrect": true },
+          { "text": "I bridge frontend and backend — working with Rails, Node.js, and Python to deliver end-to-end features.", "isCorrect": false },
+          { "text": "I don't just consume APIs — I understand database design, server architecture, and deployment pipelines.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "full-stack", "translation": "ฟูลสแตค", "definition": "development involving both frontend and backend" },
+          { "word": "collaborating", "translation": "ร่วมมือ", "definition": "working together with others" },
+          { "word": "closely", "translation": "อย่างใกล้ชิด", "definition": "in a careful and thorough way" }
+        ]
+      },
+      {
+        "id": 9,
+        "videoUrl": "/video/portfolio/scene9.mp4",
+        "transcript": "At Marketron, I modernized internal platforms and helped automate complex workflows at scale.",
+        "thaiTranslation": "ที่ Marketron ฉันปรับปรุงแพลตฟอร์มภายในให้ทันสมัยและช่วยทำให้เวิร์กโฟลว์ที่ซับซ้อนเป็นอัตโนมัติในระดับใหญ่",
+        "duration": 5.0,
+        "listeningOptions": [
+          { "text": "At Marketron, I modernized internal platforms and helped automate complex workflows at scale.", "isCorrect": true },
+          { "text": "At Marketron, I modernized legacy platforms with React and TypeScript — reducing technical debt while shipping new features.", "isCorrect": false },
+          { "text": "I championed quality at Marketron — implementing comprehensive testing that achieved 85% coverage across critical systems.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "modernized", "translation": "ปรับปรุงให้ทันสมัย", "definition": "updated to use current technology or methods" },
+          { "word": "automate", "translation": "ทำให้เป็นอัตโนมัติ", "definition": "to make a process work without human intervention" },
+          { "word": "workflows", "translation": "เวิร์กโฟลว์/กระบวนการทำงาน", "definition": "sequences of tasks in a work process" },
+          { "word": "at scale", "translation": "ในระดับใหญ่", "definition": "on a large or expanding level" }
+        ]
+      },
+      {
+        "id": 10,
+        "videoUrl": "/video/portfolio/scene10.mp4",
+        "transcript": "I've also worked as a Product Owner — bridging business goals with technical execution.",
+        "thaiTranslation": "ฉันยังเคยทำงานเป็น Product Owner — เชื่อมโยงเป้าหมายทางธุรกิจกับการดำเนินงานทางเทคนิค",
+        "duration": 4.5,
+        "listeningOptions": [
+          { "text": "I've also worked as a Product Owner — bridging business goals with technical execution.", "isCorrect": true },
+          { "text": "As a Product Owner, I learned to translate business goals into technical roadmaps — managing a $1M budget along the way.", "isCorrect": false },
+          { "text": "I've led cross-functional teams, balancing user needs, business objectives, and technical constraints.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "Product Owner", "translation": "เจ้าของผลิตภัณฑ์", "definition": "a role responsible for defining product features and priorities" },
+          { "word": "bridging", "translation": "เชื่อมโยง", "definition": "connecting two different things" },
+          { "word": "business goals", "translation": "เป้าหมายทางธุรกิจ", "definition": "objectives a company wants to achieve" },
+          { "word": "execution", "translation": "การดำเนินงาน", "definition": "the process of carrying out a plan" }
+        ]
+      },
+      {
+        "id": 11,
+        "videoUrl": "/video/portfolio/scene11.mp4",
+        "transcript": "Recently, I've been exploring AI — building chatbots, RAG systems, and integrating large language models into real products.",
+        "thaiTranslation": "เมื่อเร็วๆ นี้ ฉันได้สำรวจ AI — สร้าง chatbot, ระบบ RAG และการผสมผสาน large language model เข้ากับผลิตภัณฑ์จริง",
+        "duration": 6.0,
+        "listeningOptions": [
+          { "text": "Recently, I've been exploring AI — building chatbots, RAG systems, and integrating large language models into real products.", "isCorrect": true },
+          { "text": "I'm currently exploring AI engineering — building RAG systems, chatbots, and integrating LLMs into production applications.", "isCorrect": false },
+          { "text": "Recently, I've been building with Claude, OpenAI, and local models — creating AI-powered tools that solve real problems.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "exploring", "translation": "สำรวจ/ศึกษา", "definition": "investigating or learning about something new" },
+          { "word": "chatbots", "translation": "แชทบอท", "definition": "AI programs that simulate conversation" },
+          { "word": "RAG systems", "translation": "ระบบ RAG", "definition": "Retrieval-Augmented Generation - AI systems that combine search with generation" },
+          { "word": "integrating", "translation": "ผสมผสาน/รวมเข้าด้วยกัน", "definition": "combining different things into a unified whole" },
+          { "word": "large language models", "translation": "โมเดลภาษาขนาดใหญ่", "definition": "AI systems trained on vast amounts of text data" }
+        ]
+      },
+      {
+        "id": 12,
+        "videoUrl": "/video/portfolio/scene12.mp4",
+        "transcript": "I care about clean code, thoughtful UX, and continuous learning. I'm currently open to new software engineering opportunities.",
+        "thaiTranslation": "ฉันใส่ใจเรื่องโค้ดที่สะอาด, UX ที่รอบคอบ และการเรียนรู้อย่างต่อเนื่อง ขณะนี้ฉันเปิดรับโอกาสใหม่ๆ ในด้านวิศวกรรมซอฟต์แวร์",
+        "duration": 5.5,
+        "listeningOptions": [
+          { "text": "I care about clean code, thoughtful UX, and continuous learning. I'm currently open to new software engineering opportunities.", "isCorrect": true },
+          { "text": "I believe in building software that matters — with clean code, empathy for users, and a commitment to growth. Let's connect.", "isCorrect": false },
+          { "text": "If you're looking for an engineer who combines technical depth with product thinking — I'd love to talk.", "isCorrect": false }
+        ],
+        "keywords": [
+          { "word": "clean code", "translation": "โค้ดที่สะอาด", "definition": "well-organized, readable, and maintainable code" },
+          { "word": "thoughtful", "translation": "รอบคอบ/ใส่ใจ", "definition": "showing careful consideration" },
+          { "word": "UX", "translation": "ประสบการณ์ผู้ใช้", "definition": "User Experience - how users interact with a product" },
+          { "word": "continuous learning", "translation": "การเรียนรู้อย่างต่อเนื่อง", "definition": "ongoing education and skill development" },
+          { "word": "opportunities", "translation": "โอกาส", "definition": "favorable circumstances for advancement" }
+        ]
+      }
+    ]
   }
 ]
